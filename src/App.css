@@ -1,0 +1,32 @@
+.App {
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+}
+.converter {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hex, .rgb {
+  height: 35px;
+  font-size: 16px;
+  border-radius: 0;
+  border: 1px solid gainsboro;
+  text-align: center;
+}
+
+.hex:focus-visible, .rgb:focus-visible {
+  outline: none;
+}
+.hex:focus, .rgb:focus {
+  border-radius: 0;
+  border: 1px solid gray;
+}
+
+.rgb {
+  margin-top: 10px;
+}
